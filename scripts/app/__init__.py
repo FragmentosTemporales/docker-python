@@ -7,3 +7,5 @@ class Welcome:
         self.last_name = os.environ.get('LAST_NAME')
         
         print(f'Bienvenido/a {self.first_name} {self.last_name}')
+
+        
